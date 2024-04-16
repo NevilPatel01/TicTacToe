@@ -1,0 +1,85 @@
+/* Author: Nevil Patel, 000892482 */
+
+*{
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  @keyframes animation {
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: red;
+    }
+    100% {
+      background-color: blue;
+    }
+  }
+  
+  #animation {
+    animation-name: animation;
+    padding: 15px 5px;
+    animation: animation 5s infinite;
+    color: white;
+  }
+  
+  #gameArea {
+    margin: 25px auto;
+  }
+  
+  #color{
+    padding: 5px;
+    text-align: center;
+  }
+  
+  #applyButton{
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  #controls {
+    margin: 20px auto;
+  }
+  
+  .blocks {
+    fill: aliceblue;
+    stroke: black;
+    stroke-width: 1.5;
+
+  }
+  
+  #restartButton {
+    padding: 10px 20px;
+  }
+  
+  #gameSquare {
+    border: 2px solid black;
+  }
+  
+  .cell.Blue {
+    fill: blue;
+  }
+  
+  .cell.Red {
+    fill: red;
+  }
+  
+  #steps {
+    font-weight: bold;
+  }
+  
+  #redish{
+    color: red;
+  }
+  
+  #bluish{
+    color: blue;
+  }
+  
+  footer{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: peru;
+  }

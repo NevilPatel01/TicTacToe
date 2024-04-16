@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <!--Author: Nevil Patel, 000892482-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Game title header -->
+    <header>
+        <h1 id="animation">Tic Tac Toe</h1>
+    </header>
+
+    <!-- SVG container for the Tic Tac Toe block -->
+    <div id="gameArea">
+        <svg id="gameSquare" width="300" height="300"> 
+        </svg>
+    </div>
+
+    <!-- Choose Color Division -->
+    <div id="chooseColor">
+        <label for="color">Choose Initial color to start game:</label>
+        <input type="text" id="color" placeholder="Enter 'Blue' or 'Red'">
+        <button id="applyButton">Apply Color</button>
+    </div>
+
+    <!-- Controls Division -->
+    <div id="controls">
+        <button id="restartButton">Restart Game</button>
+    </div>
+
+    <!-- Steps Division -->
+    <div id="steps">
+        <p id="redish">Steps taken by Red: <span id="redSteps">0</span></p>
+        <p id="bluish">Steps taken by Blue: <span id="blueSteps">0</span></p>
+    </div>
+
+    <!-- Short Game description -->
+    <p>Note: This Tic Tac Toe game is inspired from the original Tic Tac Toe game but instead of 'X' and 'O', I used 'Blue' and 'Red' Colors.</p>
+    <p>By default, your first color will be blue and the second will be red.</p>
+
+    <!-- Footer Division -->
+    <footer>
+        <p>&copy; Nevil Patel, 000892482</p>
+    </footer>
+
+    <!-- JavaScript file linked -->
+    <script src="script.js"></script>
+</body>
+</html>
